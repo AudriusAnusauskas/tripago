@@ -16,9 +16,6 @@ export default function TripList() {
         fetchTrips()
     }, [fetchTrips])
 
-    console.log(trips);
-
-
     return (
         <div className="trip-list" >
             <h2>Trip List</h2>
